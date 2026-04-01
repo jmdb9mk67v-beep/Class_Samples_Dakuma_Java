@@ -1,5 +1,5 @@
 # Java Fundamentals: Class Samples & Exercises
-### Instructor: Michael Lewis (Dakuma)
+### Instructor:  Dakuma
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=jmdb9mk67v-beep.Class_Samples_Dakuma_Java)
 
