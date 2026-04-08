@@ -49,6 +49,8 @@ public class Battle {
       case 3: //  orc
       if(who.equals("Player")) {
         eWarrior = new Orc();
+      } else {
+        eWarrior = new Orc();
       }
       break;
     } // End Switch

@@ -7,10 +7,27 @@ public abstract class Warrior {
   private int strength; //  how strong you are, determines damage you can do
   private int dexterity;  //  how fast, nimble you are basically movement
 
-  public Warrior(int health, int strength, int dexterity) {
-    this.health = health;
-    this.strength = strength;
-    this.dexterity = dexterity;
+  public Warrior() { } // constructor
+
+  // getters
+  public int getHealth() {
+    return this.health;  
   }
-  
+  public int getStrength() {
+    return this.strength;
+  }
+  public int getDexterity() {
+    return this.dexterity;
+  }
+
+  //  setters
+  public void setHealth(int health) {
+    this.health = health;
+  }
+  public void setStrength(int strength) {
+    this.strength = strength;
+  }
+  public void setDexterity(int dexterity) {
+    this.dexterity = dexterity;
+  }    
 } // End Class
